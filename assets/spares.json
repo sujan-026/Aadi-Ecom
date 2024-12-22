@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Brake&Clutch",
+    "data": [
+      {
+        "id": 1,
+        "title": "Front Disc Brake Master Cylinder Assembly",
+        "price": "Rs. 800.00",
+        "rating": null,
+        "description": "Precision master cylinder for front disc brakes.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["135", "150", "180", "200", "200 NS", "220"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300"
+      },
+      {
+        "id": 2,
+        "title": "Mukut Front Brake Disc Caliper",
+        "price": "Rs. 1,040.00",
+        "rating": null,
+        "description": "High-performance brake disc caliper for specific models.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["150", "150 NS", "160 NS", "180", "200", "220"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "if": 3,
+        "title": "Rear Disc Brake Master Cylinder Assembly",
+        "price": "Rs. 1,710.00",
+        "rating": null,
+        "description": "Rear master cylinder for reliable braking.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["150 AS", "150 NS", "160 NS", "180", "200", "200 AS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 4,
+        "title": "Front Brake Disc Plate",
+        "price": "Rs. 1,790.00",
+        "rating": 14,
+        "description": "Disc plate designed for enhanced braking performance.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "200 RS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 5,
+        "title": "Mukut Rear Disc Brake Plate",
+        "price": "Rs. 3,330.00",
+        "rating": 11,
+        "description": "Rear brake disc plate for specific Pulsar models.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["150", "150 NS", "160 NS", "180", "200", "220"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 6,
+        "title": "Rear Brake Disc Plate",
+        "price": "Rs. 950.00",
+        "rating": 10,
+        "description": "High-quality rear disc plate for efficient braking.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["150", "150 NS", "160 NS", "180", "200", "220"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 7,
+        "title": "Front Brake Disc Plate",
+        "price": "Rs. 1,470.00",
+        "rating": 3,
+        "description": "High-performance disc plate for optimal braking.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["150", "150 NS", "160 NS", "180", "200", "220"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 8,
+        "title": "Clutch Plate",
+        "price": "Rs. 4,229.00",
+        "rating": 7,
+        "description": "High-quality clutch plate for smooth operation.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 9,
+        "title": "MK Clutch Assembly",
+        "price": "Rs. 1,210.00",
+        "rating": null,
+        "description": "Clutch assembly for smooth and efficient performance.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      }
+    ]
+  },
+  {
+    "name": "Sets",
+    "data": [
+      {
+        "id": 1,
+        "title": "Head Light Set",
+        "price": "Rs. 1,820.00",
+        "rating": 49,
+        "description": "Complete headlight set for enhanced visibility.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "160 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 2,
+        "title": "MINDA Lock Set",
+        "price": "Rs. 1,040.00",
+        "rating": 44,
+        "description": "Lock set for Bajaj Pulsar 200 NS models.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS (BS3 Models)"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 3,
+        "title": "Spark Minda Ignition Lock Set",
+        "price": "Rs. 1,060.00",
+        "rating": 4,
+        "description": "Ignition lock set for secure operation.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id":4,
+        "title": "Spark Minda Ignition Lock Set",
+        "price": "Rs. 1,071.00",
+        "rating": 14,
+        "description": "Ignition lock set for improved security.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id":5,
+        "title": "Spark Minda Ignition Lock Set",
+        "price": "Rs. 750.00",
+        "rating": 8,
+        "description": "High-security ignition lock set for BS4 models.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id":6,
+        "title": "ROLON Chain Sprocket Kit",
+        "price": "Rs. 830.00",
+        "rating": 23,
+        "description": "Chain sprocket kit for smooth gear shifts.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS (BS3 Models)"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      }
+    ]
+  },
+  {
+    "name": "Shock Absorber",
+    "data": [
+      {
+        "id": 1,
+        "title": "Rear Mono Shock Absorber",
+        "price": "Rs. 1,575.00",
+        "rating": null,
+        "description": "High-quality shock absorber for improved ride comfort.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 2,
+        "title": "ENDURANCE Rear Mono Shock Absorber",
+        "price": "Rs. 739.00",
+        "rating": null,
+        "description": "Rear mono shock absorber for smoother suspension.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      }
+    ]
+  },
+  {
+    "name": "Fuel Pump Motor",
+    "data": [
+      {
+        "id": 1,
+        "title": "Mukut Fuel Pump Motor",
+        "price": "Rs. 2,600.00",
+        "rating": 16,
+        "description": "Fuel pump motor for efficient fuel delivery.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 2,
+        "title": "Techlon Starter Motor",
+        "price": "Rs. 919.00",
+        "rating": 7,
+        "description": "Reliable starter motor for quick engine ignition.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      }
+    ],
+  },
+  {
+    "name": "CDI",
+    "data": [
+      {
+        "id": 1,
+        "title": "Eauto CDI",
+        "price": "Rs. 1,383.00",
+        "rating": 4,
+        "description": "Advanced CDI unit for efficient engine performance.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      }
+    ],
+  },
+  {
+    "name": "Speedometer",
+    "data": [
+      {
+        "id": 1,
+        "title": "PRICOL Digital Speedometer",
+        "price": "Rs. 1,521.00",
+        "rating": 4,
+        "description": "Digital speedometer for accurate speed tracking.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 2,
+        "title": "PRICOL Digital Speedometer",
+        "price": "Rs. 1,313.00",
+        "rating": 5,
+        "description": "Speedometer for accurate speed tracking and diagnostics.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      },
+      {
+        "id": 3,
+        "title": "PRICOL Digital Speedometer",
+        "price": "Rs. 1,133.00",
+        "rating": 4,
+        "description": "Digital speedometer for improved tracking.",
+        "compatibleModal": [
+          {
+            "bikeName": "Bajaj Pulsar",
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+          }
+        ],
+        "src": "https://picsum.photos/200/300",
+      }
+    ]
+  }
+]

@@ -1,0 +1,2092 @@
+[
+  {
+    "company": "Bajaj",
+    "bikes": [
+      {
+        "id": 22,
+        "name": "Avenger 150",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 23,
+        "name": "Avenger 180",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 24,
+        "name": "Avenger 200",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 25,
+        "name": "Avenger 220",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 26,
+        "name": "Boxer 100",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 27,
+        "name": "Boxer 125",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 28,
+        "name": "Boxer BX 150",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 29,
+        "name": "Boxer BM 150 Fi",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 30,
+        "name": "Caliber",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 31,
+        "name": "CT 100",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 32,
+        "name": "Discover 100 F",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 33,
+        "name": "Discover 100 M",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 34,
+        "name": "Discover 100 S",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 35,
+        "name": "Discover 100 T",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 36,
+        "name": "Discover 100 New Model",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 37,
+        "name": "Discover 110 F",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 38,
+        "name": "Discover 110 M",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 39,
+        "name": "Discover 110 S",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 40,
+        "name": "Discover 110 T",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 41,
+        "name": "Discover 110 New Model",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 42,
+        "name": "Discover 125 ST",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 43,
+        "name": "Discover 125 SS",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 44,
+        "name": "Discover 125 T",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 45,
+        "name": "Discover 125 M",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 46,
+        "name": "Discover 125 NEW MODEL",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 47,
+        "name": "Discover 125 OLD MODEL",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 48,
+        "name": "Discover 125 BS4",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 49,
+        "name": "Discover 135",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 50,
+        "name": "Discover 150",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 51,
+        "name": "Discover 150 F",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 52,
+        "name": "Discover 150 DISC",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 53,
+        "name": "Discover 150 S",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 54,
+        "name": "Dominar 400",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 55,
+        "name": "KB4S",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 56,
+        "name": "Platina 100",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 57,
+        "name": "Platina 100 ES",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 58,
+        "name": "Platina 110 BS4",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 59,
+        "name": "Platina 125",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 60,
+        "name": "Pulsur 125",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 61,
+        "name": "Pulsur 135",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 62,
+        "name": "Pulsur 150 DTS1",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 63,
+        "name": "Pulsur 150 UG3",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 64,
+        "name": "Pulsur 150 UG4",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 65,
+        "name": "Pulsur 150 UG4.5",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 66,
+        "name": "Pulsur 150 UG5",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 67,
+        "name": "Pulsur 150 AS",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 68,
+        "name": "Pulsur 150 NS",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 69,
+        "name": "Pulsur 150 BS4",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 70,
+        "name": "Pulsur 160 AS",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 71,
+        "name": "Pulsur 160 NS",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 72,
+        "name": "Pulsur 160 NS BS4",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 73,
+        "name": "Pulsur 160 NS Fi",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 74,
+        "name": "Pulsur 180 DTSi",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 75,
+        "name": "Pulsur 180 UG3",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 76,
+        "name": "Pulsur 180 UG4",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 77,
+        "name": "Pulsur 180 UG4.5",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 78,
+        "name": "Pulsur 180 UG5",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 79,
+        "name": "Pulsur 180 AS",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 80,
+        "name": "Pulsur 180 BS4",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 81,
+        "name": "Pulsur 200 UG3",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 82,
+        "name": "Pulsur 200 UG4",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 83,
+        "name": "Pulsur 200 UG4.5",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 84,
+        "name": "Pulsur 200 AS",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 85,
+        "name": "Pulsur 200 NS",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 86,
+        "name": "Pulsur 200 RS",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 87,
+        "name": "Pulsur 200 NS BS4",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 88,
+        "name": "Pulsur 200 RS BS4",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 89,
+        "name": "Pulsur 220 UG3",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 90,
+        "name": "Pulsur 220 UG4",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 91,
+        "name": "Pulsur 220 UG4.5",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 92,
+        "name": "Pulsur 220 F",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 93,
+        "name": "VIKRANT V15",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 94,
+        "name": "VIKRANT V12",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 95,
+        "name": "XCD 125",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 96,
+        "name": "XCD 135",
+        "manufacturer": "Bajaj",
+        "year": null,
+        "description": "",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "company": "Hero",
+    "bikes": [
+      {
+        "id": 1,
+        "name": "Hero XPulse 200",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "A lightweight adventure bike for on and off-road riding.",
+        "price": 120000
+      },
+      {
+        "id": 2,
+        "name": "Hero Grazia",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "A stylish scooter designed for urban commutes.",
+        "price": 85000
+      },
+      {
+        "id": 3,
+        "name": "Hero Ignitor",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "A sporty commuter bike with excellent mileage.",
+        "price": 75000
+      },
+      {
+        "id": 11,
+        "name": "Hero Splendor",
+        "manufacturer": "Hero",
+        "year": 1990,
+        "description": "A legendary commuter bike known for its reliability.",
+        "price": 60000
+      },
+
+      {
+        "id": 97,
+        "name": "ACHEIVER",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 98,
+        "name": "AMBITION",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 99,
+        "name": "CBZ XTREME OLD Model",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 100,
+        "name": "CBZ XTREME Star",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 101,
+        "name": "CBZ XTREME Sport",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 102,
+        "name": "CD 100",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 103,
+        "name": "CD 110",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 104,
+        "name": "CD DAWN",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 105,
+        "name": "CD DELUXE",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 106,
+        "name": "DUET",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 107,
+        "name": "HF DAWN",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 108,
+        "name": "HF DELUXE",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 109,
+        "name": "HUNK",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 110,
+        "name": "GLAMOUR",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 111,
+        "name": "IMPULSE",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 112,
+        "name": "KARIZMA R",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 113,
+        "name": "KARIZMA ZMR",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 114,
+        "name": "MAESTRO",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 115,
+        "name": "PASSION Pro",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 116,
+        "name": "PASSION Pro BS4",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 117,
+        "name": "PASSION X Pro",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 118,
+        "name": "PASSION X Pro i3s",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 119,
+        "name": "PASSION Plus",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 120,
+        "name": "SPLENDER Super",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 121,
+        "name": "SPLENDER Pro",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 122,
+        "name": "SPLENDER Plus",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 123,
+        "name": "SPLENDER NXG",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 124,
+        "name": "SPLENDER iSmart",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 125,
+        "name": "SPLENDER BS4",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 126,
+        "name": "SPLENDER BS6",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 127,
+        "name": "SPLENDER FI",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 128,
+        "name": "PLEASURE",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 129,
+        "name": "XTREME",
+        "manufacturer": "Hero",
+        "year": null,
+        "description": "",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "company": "Honda",
+    "bikes": [
+      {
+        "id": 6,
+        "name": "Honda CB Hornet",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "A powerful street bike with aggressive styling.",
+        "price": 130000
+      },
+      {
+        "id": 7,
+        "name": "Honda Grazia",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "A premium scooter with advanced features.",
+        "price": 85000
+      },
+
+      {
+        "id": 130,
+        "name": "ACTIVA 3G",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 131,
+        "name": "ACTIVA 4G",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 132,
+        "name": "ACTIVA 5G",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 133,
+        "name": "ACTIVA 6G",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 134,
+        "name": "ACTIVA i",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 135,
+        "name": "ACTIVA HET",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 136,
+        "name": "ACTIVA 100",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 137,
+        "name": "ACTIVA 110",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 138,
+        "name": "ACTIVA 125",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 139,
+        "name": "ACTIVA BS4",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 140,
+        "name": "ACTIVA BS6",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 141,
+        "name": "ACTIVA O/M",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 142,
+        "name": "ACTIVA O/N",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 143,
+        "name": "AVIATOR",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 144,
+        "name": "CB TRIGGER",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 145,
+        "name": "CB TWISTER",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 146,
+        "name": "CBR 150",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 147,
+        "name": "CBR 150R",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 148,
+        "name": "CBR 250",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 149,
+        "name": "CD 110 DREAM",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 150,
+        "name": "CD 110 HET",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 151,
+        "name": "DREAM NEO",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 152,
+        "name": "DREAM YUGA",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 153,
+        "name": "ETERNO",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 154,
+        "name": "HONDA LIVO",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 155,
+        "name": "HONDA NEVI",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 156,
+        "name": "HONDA SHINE OLD MODEL",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 157,
+        "name": "HONDA SHINE NEW MODEL",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 158,
+        "name": "HONDA SHINE SP",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 159,
+        "name": "HONDA SHINE DELUXE",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 160,
+        "name": "HONDA SHINE CB",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 161,
+        "name": "HONDA SHINE SP BS6",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 162,
+        "name": "HONDA STUNNER",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 163,
+        "name": "HONDA UNICORN O/M",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 164,
+        "name": "HONDA UNICORN M/M",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 165,
+        "name": "HONDA UNICORN 150",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 166,
+        "name": "HONDA UNICORN 160",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 167,
+        "name": "HONDA UNICORN DAZZLER",
+        "manufacturer": "Honda",
+        "year": null,
+        "description": "",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "company": "Suzuki",
+    "bikes": [
+      {
+        "id": 8,
+        "name": "Suzuki Gixxer",
+        "manufacturer": "Suzuki",
+        "year": 2014,
+        "description": "A sporty street bike known for its performance and style.",
+        "price": 125000
+      },
+      {
+        "id": 9,
+        "name": "Suzuki Hayate",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "An economical commuter bike.",
+        "price": 65000
+      },
+      {
+        "id": 12,
+        "name": "Suzuki Gixxer",
+        "manufacturer": "Suzuki",
+        "year": 2014,
+        "description": "A sporty street bike known for its performance and style.",
+        "price": 125000
+      },
+      {
+        "id": 13,
+        "name": "Suzuki Intruder",
+        "manufacturer": "Suzuki",
+        "year": 2017,
+        "description": "A cruiser bike with bold styling and comfort.",
+        "price": 140000
+      },
+
+      {
+        "id": 168,
+        "name": "Access 125",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 169,
+        "name": "Access New Model",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 170,
+        "name": "Access Old Model",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 171,
+        "name": "AX100/MAX100",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 172,
+        "name": "Fiero",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 173,
+        "name": "Fiero F2",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 174,
+        "name": "Gixxer SF",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 175,
+        "name": "Gixxer SP",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 176,
+        "name": "Gixxer SF SP",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 177,
+        "name": "Gixxer SF Fi",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 178,
+        "name": "Gixxer 155",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 179,
+        "name": "Gixxer 250",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 180,
+        "name": "Gixxer Old Model",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 181,
+        "name": "GS 150R",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 182,
+        "name": "LETS",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 183,
+        "name": "SAMURAI",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 184,
+        "name": "SLINGSHOT",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 185,
+        "name": "SWISH",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 186,
+        "name": "ZEUS",
+        "manufacturer": "Suzuki",
+        "year": null,
+        "description": "",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "company": "TVS",
+    "bikes": [
+      {
+        "id": 4,
+        "name": "TVS NTorq",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "A performance-oriented scooter with smart features.",
+        "price": 90000
+      },
+      {
+        "id": 5,
+        "name": "TVS Radeon",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "A commuter bike with classic styling and modern features.",
+        "price": 70000
+      },
+      {
+        "id": 14,
+        "name": "TVS Star City Plus",
+        "manufacturer": "TVS",
+        "year": 2014,
+        "description": "A reliable commuter bike with a comfortable ride.",
+        "price": 70000
+      },
+      {
+        "id": 15,
+        "name": "TVS Zest",
+        "manufacturer": "TVS",
+        "year": 2014,
+        "description": "A lightweight scooter with vibrant colors.",
+        "price": 75000
+      },
+      {
+        "id": 21,
+        "name": "TVS Wego",
+        "manufacturer": "TVS",
+        "year": 2010,
+        "description": "A scooter with a comfortable ride and good performance.",
+        "price": 70000
+      },
+
+      {
+        "id": 187,
+        "name": "Apache 150",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 188,
+        "name": "Apache RTR 160",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 189,
+        "name": "Apache RTR 180",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 190,
+        "name": "Apache RTR 200",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 191,
+        "name": "TVS CENTRA",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 192,
+        "name": "TVS FLAME",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 193,
+        "name": "TVS JIVE",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 194,
+        "name": "TVS JUPITER",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 195,
+        "name": "TVS MAX 4R",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 196,
+        "name": "TVS Phoenix",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 197,
+        "name": "TVS Scooty PEP",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 198,
+        "name": "TVS Scooty PEP Plus",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 199,
+        "name": "TVS Star City 100",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 200,
+        "name": "TVS Star City 110",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 201,
+        "name": "TVS Star Sport",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 202,
+        "name": "TVS Streak",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 203,
+        "name": "TVS Victor GL",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 204,
+        "name": "TVS Victor GLX",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 205,
+        "name": "TVS Victor N/M",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 206,
+        "name": "TVS Victor O/M",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 207,
+        "name": "TVS VEGO",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 208,
+        "name": "TVS XL 100",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 209,
+        "name": "TVS XL Super",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 210,
+        "name": "TVS XL Super New",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 211,
+        "name": "TVS XL Super HD",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 212,
+        "name": "TVS XL Super Heavy Duty",
+        "manufacturer": "TVS",
+        "year": null,
+        "description": "",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "company": "Yamaha",
+    "bikes": [
+      {
+        "id": 10,
+        "name": "Yamaha Fascino",
+        "manufacturer": "Yamaha",
+        "year": 2015,
+        "description": "A retro-modern scooter with stylish looks.",
+        "price": 90000
+      },
+      {
+        "id": 16,
+        "name": "Yamaha Fascino",
+        "manufacturer": "Yamaha",
+        "year": 2015,
+        "description": "A retro-modern scooter with stylish looks.",
+        "price": 90000
+      },
+      {
+        "id": 17,
+        "name": "Yamaha Ray",
+        "manufacturer": "Yamaha",
+        "year": 2012,
+        "description": "A sleek and compact scooter for city rides.",
+        "price": 80000
+      },
+      {
+        "id": 20,
+        "name": "Yamaha Saluto",
+        "manufacturer": "Yamaha",
+        "year": 2015,
+        "description": "A practical commuter bike with fuel efficiency.",
+        "price": 75000
+      },
+
+      {
+        "id": 213,
+        "name": "AlBA",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 214,
+        "name": "ALPHA",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 215,
+        "name": "CRUX",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 216,
+        "name": "ENTICER",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 217,
+        "name": "FZ FZS",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 218,
+        "name": "FZ FZ16",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 219,
+        "name": "FZ FZ25",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 220,
+        "name": "FZ FAZER",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 221,
+        "name": "FZ FZV2",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 222,
+        "name": "FZ FZV3",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 223,
+        "name": "FZ FZFI",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 224,
+        "name": "FZ FZ250",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 225,
+        "name": "GLADIATOR",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 226,
+        "name": "LIBERO",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 227,
+        "name": "Ray Z",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 228,
+        "name": "Ray ZR",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 229,
+        "name": "Ray Cygnus Ray",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 230,
+        "name": "R15 R15S",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 231,
+        "name": "R15 V1",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 232,
+        "name": "R15 V2",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 233,
+        "name": "R15 V3",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 234,
+        "name": "RX 100",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 235,
+        "name": "RX 135",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 236,
+        "name": "RXG",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 237,
+        "name": "SZ SZ-R",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 238,
+        "name": "SZ SZ-X",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 239,
+        "name": "SZ SZ-RR",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 240,
+        "name": "YBR 100",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 241,
+        "name": "YBR 110",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 242,
+        "name": "YBR 125",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+
+      {
+        "id": 243,
+        "name": "YBX",
+        "manufacturer": "Yamaha",
+        "year": null,
+        "description": "",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "company": "Mahindra",
+    "bikes": [
+      {
+        "id": 18,
+        "name": "Mahindra Gusto",
+        "manufacturer": "Mahindra",
+        "year": 2014,
+        "description": "A feature-rich scooter with adjustable seat height.",
+        "price": 78000
+      },
+      {
+        "id": 19,
+        "name": "Mahindra Pantero",
+        "manufacturer": "Mahindra",
+        "year": 2013,
+        "description": "A commuter bike offering excellent mileage.",
+        "price": 65000
+      },
+
+      {
+        "id": 244,
+        "name": "CENTURO",
+        "manufacturer": "Mahindra",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 245,
+        "name": "Duro",
+        "manufacturer": "Mahindra",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 246,
+        "name": "Duro DZ",
+        "manufacturer": "Mahindra",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 247,
+        "name": "Flyte",
+        "manufacturer": "Mahindra",
+        "year": null,
+        "description": "",
+        "price": 0
+      },
+      {
+        "id": 248,
+        "name": "Rodeo",
+        "manufacturer": "Mahindra",
+        "year": null,
+        "description": "",
+        "price": 0
+      }
+    ]
+  },
+  {
+    "company": "Royal Enfield",
+    "bikes": [
+      
+    ]
+  },
+  {
+    "company": "Kawasaki",
+    "bikes": [
+     
+    ]
+  }
+]
