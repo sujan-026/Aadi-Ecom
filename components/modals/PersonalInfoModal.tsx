@@ -12,7 +12,7 @@ import {
 
 const PersonalBaseModal = () => {
   return (
-    <VStack space="lg">
+    <VStack space="px-2">
       <Avatar size="xl" className="self-center mb-4">
         <AvatarFallbackText>Sujan P</AvatarFallbackText>
         <AvatarImage

@@ -15,7 +15,7 @@ export default function RootLayout() {
             presentation: "modal",
           }}
         />
-        <Stack.Screen name="CompanyName" />
+        <Stack.Screen name="Company Names" />
         <Stack.Screen name="+not-found" />
       </Stack>
     </GluestackUIProvider>

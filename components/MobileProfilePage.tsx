@@ -29,7 +29,6 @@ const MobileProfilePage = ({ isActive }: any) => {
   return (
     <ScrollView style={{ display: isActive ? "flex" : "none" }}>
       <VStack className="px-5 py-4 flex-1" space="lg">
-        <Heading className="mb-1">Profile</Heading>
         <ProfileCard />
         <Divider className="my-2" />
         <PersonalInfoSection />

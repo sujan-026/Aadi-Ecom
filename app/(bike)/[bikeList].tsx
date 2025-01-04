@@ -100,9 +100,7 @@ const BikeList = () => {
                   </Card>
                 </View>
               ))
-            ) : (
-              <Text key="no-bike">No bike found</Text>
-            )
+            ) : null
           )}
         </View>
       </VStack>

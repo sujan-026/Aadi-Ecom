@@ -144,13 +144,12 @@ const SparesPanelData = ({ activeTab, spares }: any) => {
               ) => (
                 <Card
                   key={index}
-                  className="p-5 rounded-lg w-full md:w-[50%] m-1 flex flex-col justify-between"
+                  className="p-5 rounded-lg w-full md:w-[30%] m-1 flex flex-col justify-between"
                 >
                   <Image
                     source={{ uri: item.src }}
                     className="mb-6 h-[200px] w-full rounded-md aspect-[5/3]"
                     alt={`${item.title} image`}
-                    resizeMode="contain"
                   />
                   <Text className="text-sm font-normal mb-2 text-typography-700">
                     {item.title}
