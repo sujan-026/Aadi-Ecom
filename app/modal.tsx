@@ -6,6 +6,7 @@ import { useLocalSearchParams, useNavigation } from "expo-router";
 import AccountInfoModal from "@/components/modals/AccountInfoModal";
 import MyOrderModal from "@/components/modals/MyOrderModal";
 import PreviousModal from "@/components/modals/PreviousOrderModal";
+import SupportModal from "@/components/modals/SupportModal";
 
 const BaseModal = () => {
   const { modalType } = useLocalSearchParams() as { modalType: string };
@@ -42,7 +43,7 @@ const BaseModal = () => {
       case "gethelp":
         return <Text>Get Help Modal</Text>;
       default:
-        return <Text>Contact Modal</Text>;
+        return <SupportModal />;
     }
   };
 

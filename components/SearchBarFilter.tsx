@@ -40,7 +40,7 @@ const SearchBarFilter = () => {
             </Pressable>
           </Link>
         </Pressable>
-        <Pressable
+        {/* <Pressable
           className={`rounded-full px-3 py-1.5 ${
             selectedTab === "Add Filters"
               ? "bg-background-100"
@@ -51,7 +51,7 @@ const SearchBarFilter = () => {
           <Text size="sm" className="font-medium">
             Add Filters
           </Text>
-        </Pressable>
+        </Pressable> */}
         <Pressable className="ml-3 p-2 bg-primary-500 rounded-full">
           <Icon as={SearchIcon} className="w-4 h-4 text-typography-0" />
         </Pressable>

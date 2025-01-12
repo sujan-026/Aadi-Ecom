@@ -1,5 +1,7 @@
 import { Text, View, StyleSheet } from "react-native";
 import SearchBarFilter from "@/components/SearchBarFilter";
+
+import spares from "@/assets/spares.json";
 export default function Index() {
   return (
     <View style={styles.container}>
@@ -11,7 +13,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#25292e",
+    backgroundColor: "white",
     alignItems: "center",
     justifyContent: "center",
   },
