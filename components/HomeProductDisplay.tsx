@@ -24,11 +24,8 @@ const SparePartsCategory = ({ category }: any) => {
 
   return (
     <Box className="mb-10 px-4">
-      <HStack className="mb-4" justifyContent="space-between">
+      <HStack justify="between" className="mb-4">
         <Text className="text-lg font-bold">{category.name}</Text>
-        <Pressable>
-          <Text className="text-primary-500">View</Text>
-        </Pressable>
       </HStack>
       <ScrollView
         horizontal
@@ -38,21 +35,27 @@ const SparePartsCategory = ({ category }: any) => {
         {category.data.map((item: any, index: number) => (
           <Box
             key={index}
-            className="w-[150px] bg-white rounded-lg shadow-md p-4"
+            className="w-[150px] h-[220px] bg-white rounded-lg shadow-md p-4 flex flex-col justify-between"
           >
             <Image
               source={{ uri: item.src }}
-              className="h-[100px] w-full rounded-md"
+              className="h-[100px] w-full rounded-md mb-2"
               alt={`${item.title} image`}
+              resizeMode="cover"
             />
-            <Text className="mt-3 text-sm font-medium text-center">
+            <Text
+              className="text-sm font-medium text-center mb-2"
+              numberOfLines={2}
+            >
               {item.title}
             </Text>
             <Button
-              className="mt-2"
+              className="bg-black py-1"
               onPress={() => addToCart(item, category.name)}
             >
-              <ButtonText size="sm">Add to cart</ButtonText>
+              <ButtonText size="sm" className="text-white">
+                Add to cart
+              </ButtonText>
             </Button>
           </Box>
         ))}
@@ -60,5 +63,7 @@ const SparePartsCategory = ({ category }: any) => {
     </Box>
   );
 };
+
+
 
 export default HomeProductDisplay;
