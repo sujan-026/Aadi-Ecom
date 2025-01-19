@@ -31,7 +31,7 @@
         "src": "https://picsum.photos/200/300",
       },
       {
-        "if": 3,
+        "id": 3,
         "title": "Rear Disc Brake Master Cylinder Assembly",
         "price": " 1,710.00",
         "rating": null,
@@ -39,10 +39,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["150 AS", "150 NS", "160 NS", "180", "200", "200 AS"],
+            "modelNumber": ["150 AS", "150 NS", "160 NS", "180", "200", "200 AS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id": 4,
@@ -53,10 +53,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "200 RS"],
+            "modelNumber": ["200 NS", "200 RS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id": 5,
@@ -67,10 +67,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["150", "150 NS", "160 NS", "180", "200", "220"],
+            "modelNumber": ["150", "150 NS", "160 NS", "180", "200", "220"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id": 6,
@@ -81,10 +81,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["150", "150 NS", "160 NS", "180", "200", "220"],
+            "modelNumber": ["150", "150 NS", "160 NS", "180", "200", "220"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id": 7,
@@ -95,10 +95,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["150", "150 NS", "160 NS", "180", "200", "220"],
+            "modelNumber": ["150", "150 NS", "160 NS", "180", "200", "220"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id": 8,
@@ -109,10 +109,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id": 9,
@@ -123,10 +123,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       }
     ]
   },
@@ -142,10 +142,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "160 NS"],
+            "modelNumber": ["200 NS", "160 NS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id": 2,
@@ -156,10 +156,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS (BS3 Models)"],
+            "modelNumber": ["200 NS (BS3 Models)"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id": 3,
@@ -170,7 +170,7 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"]
           }
         ],
         "src": "https://picsum.photos/200/300",
@@ -184,10 +184,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id":5,
@@ -198,10 +198,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id":6,
@@ -212,10 +212,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS (BS3 Models)"],
+            "modelNumber": ["200 NS (BS3 Models)"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       }
     ]
   },
@@ -231,10 +231,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id": 2,
@@ -245,10 +245,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       }
     ]
   },
@@ -264,10 +264,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       },
       {
         "id": 2,
@@ -278,10 +278,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       }
     ],
   },
@@ -297,10 +297,10 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"]
           }
         ],
-        "src": "https://picsum.photos/200/300",
+        "src": "https://picsum.photos/200/300"
       }
     ],
   },
@@ -316,7 +316,7 @@
         "compatibleModal": [
           {
             "bikeName": "Bajaj Pulsar",
-            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"],
+            "modelNumber": ["200 NS", "AS", "RS", "160 NS", "150 NS"]
           }
         ],
         "src": "https://picsum.photos/200/300",

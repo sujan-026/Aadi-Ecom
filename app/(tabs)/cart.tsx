@@ -118,6 +118,7 @@
 
 
 import React from "react";
+import { useRouter } from "expo-router";
 import { VStack } from "@/components/ui/vstack";
 import { HStack } from "@/components/ui/hstack";
 import { Text } from "@/components/ui/text";
@@ -129,7 +130,7 @@ import { Trash, Plus, Minus } from "lucide-react-native"; // Import Trash Icon
 
 export default function CartScreen() {
   const { cart, removeFromCart, updateCartQuantity } = useCart();
-
+  const router = useRouter();
   // Calculate total price of all items in the cart
   const calculateTotal = () => {
     return cart
@@ -215,7 +216,7 @@ export default function CartScreen() {
             </HStack>
             <Button
               className="mt-5 bg-primary-500 text-white py-2 rounded-md shadow-md"
-              onPress={() => alert("Proceeding to Checkout")}
+              onPress={() => router.push("/checkout")}
             >
               <ButtonText className="text-lg font-semibold">
                 Proceed to Checkout

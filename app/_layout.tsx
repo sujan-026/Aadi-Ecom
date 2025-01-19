@@ -9,7 +9,12 @@ export default function RootLayout() {
         <Stack>
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
           <Stack.Screen name="(bike)" options={{ title: "Bike List" }} />
-          <Stack.Screen name="(product)" options={{ title: "Bike Spare Part List" }} />
+          <Stack.Screen name="(spares)" options={{ headerShown: false }} />
+          <Stack.Screen name="checkout" options={{ title: "Billing" }} />
+          <Stack.Screen
+            name="(product)"
+            options={{ title: "Bike Spare Part List" }}
+          />
           <Stack.Screen
             name="modal"
             options={{
@@ -17,8 +22,7 @@ export default function RootLayout() {
               presentation: "modal",
             }}
           />
-          <Stack.Screen name="CompanyName" options={{title: "Bike Models"}}/>
-          <Stack.Screen name="billing" options={{ title: "Billing" }} />
+          <Stack.Screen name="CompanyName" options={{ title: "Bike Models" }} />
           <Stack.Screen name="+not-found" />
         </Stack>
       </GluestackUIProvider>

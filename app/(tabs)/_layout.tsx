@@ -72,9 +72,6 @@
 //   );
 // }
 
-
-
-
 import { Tabs } from "expo-router";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { View, Text, Image, StyleSheet } from "react-native";
@@ -83,15 +80,16 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: "#ffd33d",
+        tabBarActiveTintColor: "#007bff",
         headerStyle: {
           backgroundColor: "#25292e",
         },
         headerShadowVisible: false,
         headerTintColor: "#fff",
         tabBarStyle: {
-          backgroundColor: "#25292e",
+          backgroundColor: "white",
         },
+        headerShown: false,
       }}
     >
       <Tabs.Screen
@@ -164,14 +162,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   logo: {
-    width: 120, // Adjust the width of the logo
-    height: 40, // Adjust the height of the logo
-    marginRight: 8, // Spacing between logo and text
-    resizeMode: "contain", // Ensure the logo scales properly
+    width: 120,
+    height: 40,
+    marginRight: 8,
+    resizeMode: "contain",
   },
   title: {
     fontSize: 18,
     fontWeight: "bold",
-    color: "#fff", // Matches the header text color
+    color: "#fff",
   },
 });
