@@ -206,7 +206,7 @@
 // });
 
 import React from "react";
-import { View, StyleSheet, ScrollView } from "react-native";
+import { View, StyleSheet, ScrollView,Text } from "react-native";
 import Header from "@/components/Header";
 import Carousel from "@/components/carousel";
 import FeaturedCategories from "@/components/FeaturedCategories";
@@ -214,6 +214,7 @@ import PopularProducts from "@/components/PopularProducts";
 import BrandsSection from "@/components/BrandsSection";
 import HomeProductDisplay from "@/components/HomeProductDisplay";
 import spares from "@/assets/spares.json";
+import { Link } from "expo-router";
 
 const carouselData = [
   {
@@ -243,6 +244,9 @@ export default function Index() {
         <FeaturedCategories />
         {/* <PopularProducts /> */}
         {/* <HomeProductDisplay spares={spares} /> */}
+        <Link href="/about">
+          <Text>Go to About</Text>
+        </Link>
       </ScrollView>
     </View>
   );
