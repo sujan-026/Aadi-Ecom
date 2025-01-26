@@ -71,22 +71,17 @@ const ProfileCard = () => {
           />
         </Avatar>
         <VStack>
-          <Pressable onPress={() => handleModalNavigation("profile")}>
             <Text>Sujan P</Text>
             <Link>
               <LinkText
                 size="sm"
-                className="text-typography-500 no-underline hover:text-typography-500 active:text-typography-500"
+                className="text-typography-900 no-underline hover:text-typography-500 active:text-typography-500"
               >
-                Show Profile
+                Profile
               </LinkText>
             </Link>
-          </Pressable>
         </VStack>
       </HStack>
-      <Pressable onPress={() => handleModalNavigation("profile")}>
-        <Icon as={ChevronRight} />
-      </Pressable>
     </HStack>
   );
 };

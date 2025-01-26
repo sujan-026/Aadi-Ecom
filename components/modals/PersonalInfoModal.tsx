@@ -1,68 +1,153 @@
-// import { Modal } from "react-native";
-// import { Box } from "@/components/ui/box";
-// import { Button, ButtonText } from "@/components/ui/button";
 // import React from "react";
 // import { VStack } from "@/components/ui/vstack";
-// import { Text } from "@/components/ui/text";
-// import {
-//   Avatar,
-//   AvatarFallbackText,
-//   AvatarImage,
-// } from "@/components/ui/avatar";
+// import { Heading } from "@/components/ui/heading";
+// import { Input, InputField } from "@/components/ui/input";
+// import { Button, ButtonText } from "@/components/ui/button";
+// import { Divider } from "@/components/ui/divider";
+// import { ScrollView } from "react-native";
 
-// const PersonalBaseModal = () => {
+// const PersonalInfoModal = () => {
 //   return (
-//     <VStack space="px-2">
-//       <Avatar size="xl" className="self-center mb-4">
-//         <AvatarFallbackText>Sujan P</AvatarFallbackText>
-//         <AvatarImage
-//           source={{
-//             uri: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-//           }}
-//         />
-//       </Avatar>
-//       <Text className="text-md">
-//         <Text className="font-bold">Name: </Text>Sujan P
-//       </Text>
-//       <Text className="text-md">
-//         <Text className="font-bold">Last Name: </Text>Patel
-//       </Text>
-//       <Text className="text-md">
-//         <Text className="font-bold">Email: </Text>sujan@example.com
-//       </Text>
-//       <Text className="text-md">
-//         <Text className="font-bold">Phone: </Text>+91 98765 43210
-//       </Text>
-//       <Text className="text-md">
-//         <Text className="font-bold">Address: </Text>New Delhi, India
-//       </Text>
-//     </VStack>
+//     <>
+//       <ScrollView contentContainerStyle={{ padding: 20 }}>
+//         <VStack space="md">
+//           {/* Personal Information Section */}
+//           <Heading size="sm">Personal Information</Heading>
+//           <Input>
+//             <InputField placeholder="Full Name" defaultValue="John Doe" />
+//           </Input>
+//           <Input>
+//             <InputField
+//               placeholder="Primary Email"
+//               defaultValue="john.doe@example.com"
+//               keyboardType="email-address"
+//             />
+//           </Input>
+//           <Input>
+//             <InputField
+//               placeholder="Secondary Email (optional)"
+//               defaultValue=""
+//               keyboardType="email-address"
+//             />
+//           </Input>
+//           <Input>
+//             <InputField
+//               placeholder="Phone Number"
+//               defaultValue="+1234567890"
+//               keyboardType="phone-pad"
+//             />
+//           </Input>
+//           <Input>
+//             <InputField
+//               placeholder="Alternate Phone Number (optional)"
+//               defaultValue=""
+//               keyboardType="phone-pad"
+//             />
+//           </Input>
+//           <Button>
+//             <ButtonText>Update Personal Info</ButtonText>
+//           </Button>
+//         </VStack>
+
+//         <Divider />
+
+//         {/* Address Management Section */}
+//         <VStack space="md">
+//           <Heading size="sm">Saved Addresses</Heading>
+//           <Button variant="outline">
+//             <ButtonText>Manage Addresses</ButtonText>
+//           </Button>
+//         </VStack>
+//       </ScrollView>
+//     </>
 //   );
 // };
 
-// export default PersonalBaseModal;
+// export default PersonalInfoModal;
 
 
 
-
-
-
-import React from "react";
+import React, { useState } from "react";
 import { VStack } from "@/components/ui/vstack";
 import { Heading } from "@/components/ui/heading";
-import { Text } from "@/components/ui/text";
+import { Input, InputField } from "@/components/ui/input";
 import { Button, ButtonText } from "@/components/ui/button";
+import { Divider } from "@/components/ui/divider";
+import { ScrollView, Alert } from "react-native";
 
 const PersonalInfoModal = () => {
+  const [contactNumber, setContactNumber] = useState("+1234567890");
+  const [addressList, setAddressList] = useState([
+    "123 Main St, Springfield, IL",
+    "456 Elm St, Metropolis, NY",
+  ]);
+
+  const handleAddAddress = () => {
+    Alert.prompt(
+      "Add New Address",
+      "Enter the new address:",
+      [
+        { text: "Cancel", style: "cancel" },
+        {
+          text: "Add",
+          onPress: (newAddress) => {
+            if (newAddress) {
+              setAddressList((prev) => [...prev, newAddress]);
+            }
+          },
+        },
+      ],
+      "plain-text"
+    );
+  };
+
   return (
-    <VStack space="lg" className="p-5">
-      <Heading>Personal Information</Heading>
-      <Text>Update your address, contact details, and preferences here.</Text>
-      <Button>
-        <ButtonText>Save Changes</ButtonText>
-      </Button>
-    </VStack>
+    <>
+      <ScrollView contentContainerStyle={{ padding: 20 }}>
+        {/* Personal Information Section */}
+        <VStack space="md">
+          <Heading size="sm">Personal Information</Heading>
+          <Input>
+            <InputField placeholder="Full Name" defaultValue="John Doe" />
+          </Input>
+          <Input>
+            <InputField
+              placeholder="Email"
+              defaultValue="john.doe@example.com"
+            />
+          </Input>
+          <Input>
+            <InputField
+              placeholder="Contact Number"
+              value={contactNumber}
+              onChangeText={(text) => setContactNumber(text)}
+            />
+          </Input>
+          <Button>
+            <ButtonText>Update Personal Info</ButtonText>
+          </Button>
+        </VStack>
+
+        <Divider />
+
+        {/* Address Management Section */}
+        <VStack space="md">
+          <Heading size="sm">Saved Addresses</Heading>
+          {addressList.map((address, index) => (
+            <VStack key={index} space="sm">
+              <Input>
+                <InputField value={address} editable={false} />
+              </Input>
+            </VStack>
+          ))}
+          <Button variant="outline" onPress={handleAddAddress}>
+            <ButtonText>Add New Address</ButtonText>
+          </Button>
+        </VStack>
+      </ScrollView>
+    </>
   );
 };
 
 export default PersonalInfoModal;
+

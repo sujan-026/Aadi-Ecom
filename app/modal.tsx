@@ -7,6 +7,7 @@ import AccountInfoModal from "@/components/modals/AccountInfoModal";
 import MyOrderModal from "@/components/modals/MyOrderModal";
 import PreviousModal from "@/components/modals/PreviousOrderModal";
 import SupportModal from "@/components/modals/SupportModal";
+import GetHelpModal from "@/components/modals/GetHelpModal";
 
 const BaseModal = () => {
   const { modalType } = useLocalSearchParams() as { modalType: string };
@@ -41,7 +42,7 @@ const BaseModal = () => {
       case "previousorder":
         return <PreviousModal />;
       case "gethelp":
-        return <Text>Get Help Modal</Text>;
+        return <GetHelpModal />;
       default:
         return <SupportModal />;
     }
