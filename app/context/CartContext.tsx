@@ -80,7 +80,7 @@
 import React, { createContext, useState, useContext } from "react";
 
 interface CartItem {
-  id: string; // Unique ID combining tabName and product ID
+  id: string; 
   title: string;
   price: string;
   quantity: number;

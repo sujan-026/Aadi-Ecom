@@ -243,10 +243,7 @@ export default function Index() {
         <BrandsSection />
         <FeaturedCategories />
         {/* <PopularProducts /> */}
-        {/* <HomeProductDisplay spares={spares} /> */}
-        <Link href="/about">
-          <Text>Go to About</Text>
-        </Link>
+        {/* <HomeProductDisplay spares={spares} /> */}        
       </ScrollView>
     </View>
   );
