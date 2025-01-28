@@ -262,7 +262,15 @@ const ItemPage = () => {
     return (
       <View style={styles.card}>
         {/* Product Image */}
-        <Image source={{ uri: item.image }} style={styles.image} />
+        <Image
+          source={{
+            uri:
+              item.image !== "url"
+                ? `https://www.aadibikes.com/images/${item.image}`
+                : `https://cpworldgroup.com/wp-content/uploads/2021/01/placeholder.png`,
+          }}
+          style={styles.image}
+        />
 
         {/* Product Title */}
         <Text style={styles.title}>{item.title}</Text>
