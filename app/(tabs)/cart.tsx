@@ -428,11 +428,11 @@ export default function CartScreen() {
               </Text>
             </HStack>
             <Button
-              className="mt-5 bg-primary-500 text-white py-2 rounded-md shadow-md"
+              className="mt-5 bg-primary-500 text-white  rounded-md shadow-md items-center justify-center"
               onPress={() => router.push("/checkout")}
             >
               <ButtonText className="text-lg font-semibold">
-                Proceed to Checkout
+              Proceed to Checkout
               </ButtonText>
             </Button>
           </>
