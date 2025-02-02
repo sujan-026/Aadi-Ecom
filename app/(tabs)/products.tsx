@@ -100,7 +100,7 @@
 import React, { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import SpareParts from "@/components/SpareParts";
-import db from "@/firebaseConfig";
+import {db} from "@/firebaseConfig";
 
 export default function ProductScreen() {
   const [subcategories, setSubcategories] = useState([]);

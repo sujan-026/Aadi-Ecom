@@ -21,32 +21,36 @@ import {
 } from "lucide-react-native";
 import { ScrollView } from "react-native";
 import { useRouter } from "expo-router";
+import { useAuth } from "@/app/context/AuthContext";
+import ProtectedRoute from "@/components/ProtectedRoute";
 // import LogoutAlertDialog from "./LogoutAlertDialog";
 
 const MobileProfilePage = ({ isActive }: any) => {
   const [openLogoutAlertDialog, setOpenLogoutAlertDialog] = React.useState(false);
-  
+  const { user, logout } = useAuth();
   return (
-    <ScrollView style={{ display: isActive ? "flex" : "none" }}>
-      <VStack className="px-5 py-4 flex-1" space="lg">
-        <ProfileCard />
-        <Divider className="my-2" />
-        <PersonalInfoSection />
-        <Divider className="my-2" />
-        <OrderSection />
-        <Divider className="my-2" />
-        <SupportSection />
-        <Divider className="my-2" />
-        <LogoutButton
-          openLogoutAlertDialog={openLogoutAlertDialog}
-          setOpenLogoutAlertDialog={setOpenLogoutAlertDialog}
-        />
-      </VStack>
-      {/* <LogoutAlertDialog
+    <ProtectedRoute>
+      <ScrollView style={{ display: isActive ? "flex" : "none" }}>
+        <VStack className="px-5 py-4 flex-1" space="lg">
+          <ProfileCard />
+          <Divider className="my-2" />
+          <PersonalInfoSection />
+          <Divider className="my-2" />
+          <OrderSection />
+          <Divider className="my-2" />
+          <SupportSection />
+          <Divider className="my-2" />
+          <LogoutButton
+            openLogoutAlertDialog={openLogoutAlertDialog}
+            setOpenLogoutAlertDialog={setOpenLogoutAlertDialog}
+          />
+        </VStack>
+        {/* <LogoutAlertDialog
         setOpenLogoutAlertDialog={setOpenLogoutAlertDialog}
         openLogoutAlertDialog={openLogoutAlertDialog}
       /> */}
-    </ScrollView>
+      </ScrollView>
+    </ProtectedRoute>
   );
 };
 
@@ -60,6 +64,7 @@ const ProfileCard = () => {
     });
   };
   return (
+     
     <HStack className="justify-between items-center">
       <HStack space="md">
         <Avatar className="bg-primary-500">

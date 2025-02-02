@@ -218,12 +218,13 @@
 
 
 import React, { useState, useEffect } from "react";
-import { View, StyleSheet, Text } from "react-native";
+import { View, StyleSheet, Text, ScrollView } from "react-native";
 import Header from "@/components/Header";
 import Carousel from "@/components/carousel";
 import FeaturedCategories from "@/components/FeaturedCategories";
 import BrandsSection from "@/components/BrandsSection";
 import SplashScreen from "@/components/SplashScreen"; // Import SplashScreen component
+import { Link } from "expo-router";
 
 const carouselData = [
   {
@@ -274,19 +275,24 @@ export default function Index() {
 
   if (loading) {
     // Show splash screen during data loading
-    return <SplashScreen />;
+    return <SplashScreen onFinish={() => setLoading(true)} />;
   }
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <Header />
       <Carousel data={carouselData} />
       <Text style={styles.loadingTime}>
         Home loaded in {loadTime.toFixed(2)} seconds
       </Text>
+      <Link href="login">
+        <Text style={styles.loadingTime}>
+          Login page
+        </Text>
+      </Link>
       <BrandsSection />
       <FeaturedCategories />
-    </View>
+    </ScrollView>
   );
 }
 

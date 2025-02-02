@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import { useForm, Controller } from "react-hook-form"; // Import react-hook-form
 import { useCart } from "@/app/context/CartContext";
+import ProtectedRoute from "@/components/ProtectedRoute";
 
 const CheckoutScreen = () => {
   const { cart } = useCart();
@@ -55,145 +56,142 @@ const CheckoutScreen = () => {
   };
 
   return (
-    <ScrollView style={styles.container}>
-      {/* Contact Section */}
-      <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Email</Text>
-        <Controller
-          name="contact"
-          control={control}
-          rules={{
-            required: "Contact information is required",
-            pattern: {
-              value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
-              message: "Enter a valid email address",
-            },
-          }}
-          render={({ field: { onChange, value } }) => (
-            <TextInput
-              style={[styles.input, errors.contact && { borderColor: "red" }]}
-              placeholder="Email or mobile phone number"
-              value={value}
-              onChangeText={onChange}
-            />
-          )}
-        />
-        {errors.contact && (
-          <Text style={styles.errorText}>{errors.contact.message}</Text>
-        )}
-      </View>
-
-      {/* Delivery Address Section */}
-      <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Delivery Address</Text>
-        {[
-          { name: "address.firstName", placeholder: "First Name" },
-          { name: "address.lastName", placeholder: "Last Name" },
-          { name: "address.flat", placeholder: "Flat No., House No., etc." },
-          {
-            name: "address.area",
-            placeholder: "Area, Colony, Village, Landmark",
-          },
-          { name: "address.city", placeholder: "City, Town, Village" },
-          { name: "address.state", placeholder: "State" },
-          {
-            name: "address.pin",
-            placeholder: "PIN Code",
-            rules: {
-              pattern: {
-                value: /^[0-9]{6}$/,
-                message: "PIN code must be 6 digits",
-              },
-            },
-          },
-          {
-            name: "address.phone",
-            placeholder: "Phone Number",
-            rules: {
-              pattern: {
-                value: /^[0-9]{10}$/,
-                message: "Phone number must be 10 digits",
-              },
-            },
-          },
-        ].map((field, index) => (
+    <ProtectedRoute>
+      <ScrollView style={styles.container}>
+        {/* Contact Section */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Email</Text>
           <Controller
-            key={index}
-            name={field.name}
+            name="contact"
             control={control}
             rules={{
-              required: `${field.placeholder} is required`,
-              ...(field.rules || {}),
+              required: "Contact information is required",
+              pattern: {
+                value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
+                message: "Enter a valid email address",
+              },
             }}
             render={({ field: { onChange, value } }) => (
               <TextInput
-                style={[
-                  styles.input,
-                  errors[field.name] && { borderColor: "red" },
-                ]}
-                placeholder={field.placeholder}
+                style={[styles.input, errors.contact && { borderColor: "red" }]}
+                placeholder="Email or mobile phone number"
                 value={value}
                 onChangeText={onChange}
               />
             )}
           />
-        ))}
-      </View>
-
-      {/* Payment Section */}
-      <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Payment Method</Text>
-        <TouchableOpacity
-          style={[
-            styles.paymentOption,
-            getValues("paymentMethod") === "razorpay" && styles.activeOption,
-          ]}
-          onPress={() => setValue("paymentMethod", "razorpay")}
-        >
-          <Text>Razorpay (5% Discount)</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[
-            styles.paymentOption,
-            getValues("paymentMethod") === "cod" && styles.activeOption,
-          ]}
-          onPress={() => setValue("paymentMethod", "cod")}
-        >
-          <Text>Cash on Delivery (COD)</Text>
-        </TouchableOpacity>
-      </View>
-
-      {/* Order Summary Section */}
-      <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Order Summary</Text>
-        {cart.map((item, index) => (
-          <View key={index} style={styles.orderItem}>
-            <Text style={styles.orderItemName}>{item.title}</Text>
-            <Text style={styles.orderItemDetails}>
-              Qty: {item.quantity}
-            </Text>
-            <Text style={styles.orderItemPrice}>
-              Individual Cost  ₹
-              {(
-                parseFloat(item.selling_price)
-              ).toFixed(2)}
-            </Text>
-          </View>
-        ))}
-        <View style={styles.row}>
-          <Text style={styles.totalLabel}>Total Price:</Text>
-          <Text style={styles.totalAmount}>₹{calculateTotal()}</Text>
+          {errors.contact && (
+            <Text style={styles.errorText}>{errors.contact.message}</Text>
+          )}
         </View>
-      </View>
 
-      {/* Place Order Button */}
-      <TouchableOpacity
-        style={styles.placeOrderButton}
-        onPress={handleSubmit(handlePlaceOrder)}
-      >
-        <Text style={styles.placeOrderButtonText}>Place Order</Text>
-      </TouchableOpacity>
-    </ScrollView>
+        {/* Delivery Address Section */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Delivery Address</Text>
+          {[
+            { name: "address.firstName", placeholder: "First Name" },
+            { name: "address.lastName", placeholder: "Last Name" },
+            { name: "address.flat", placeholder: "Flat No., House No., etc." },
+            {
+              name: "address.area",
+              placeholder: "Area, Colony, Village, Landmark",
+            },
+            { name: "address.city", placeholder: "City, Town, Village" },
+            { name: "address.state", placeholder: "State" },
+            {
+              name: "address.pin",
+              placeholder: "PIN Code",
+              rules: {
+                pattern: {
+                  value: /^[0-9]{6}$/,
+                  message: "PIN code must be 6 digits",
+                },
+              },
+            },
+            {
+              name: "address.phone",
+              placeholder: "Phone Number",
+              rules: {
+                pattern: {
+                  value: /^[0-9]{10}$/,
+                  message: "Phone number must be 10 digits",
+                },
+              },
+            },
+          ].map((field, index) => (
+            <Controller
+              key={index}
+              name={field.name}
+              control={control}
+              rules={{
+                required: `${field.placeholder} is required`,
+                ...(field.rules || {}),
+              }}
+              render={({ field: { onChange, value } }) => (
+                <TextInput
+                  style={[
+                    styles.input,
+                    errors[field.name] && { borderColor: "red" },
+                  ]}
+                  placeholder={field.placeholder}
+                  value={value}
+                  onChangeText={onChange}
+                />
+              )}
+            />
+          ))}
+        </View>
+
+        {/* Payment Section */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Payment Method</Text>
+          <TouchableOpacity
+            style={[
+              styles.paymentOption,
+              getValues("paymentMethod") === "razorpay" && styles.activeOption,
+            ]}
+            onPress={() => setValue("paymentMethod", "razorpay")}
+          >
+            <Text>Razorpay (5% Discount)</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[
+              styles.paymentOption,
+              getValues("paymentMethod") === "cod" && styles.activeOption,
+            ]}
+            onPress={() => setValue("paymentMethod", "cod")}
+          >
+            <Text>Cash on Delivery (COD)</Text>
+          </TouchableOpacity>
+        </View>
+
+        {/* Order Summary Section */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Order Summary</Text>
+          {cart.map((item, index) => (
+            <View key={index} style={styles.orderItem}>
+              <Text style={styles.orderItemName}>{item.title}</Text>
+              <Text style={styles.orderItemDetails}>Qty: {item.quantity}</Text>
+              <Text style={styles.orderItemPrice}>
+                Individual Cost ₹{parseFloat(item.selling_price).toFixed(2)}
+              </Text>
+            </View>
+          ))}
+          <View style={styles.row}>
+            <Text style={styles.totalLabel}>Total Price:</Text>
+            <Text style={styles.totalAmount}>₹{calculateTotal()}</Text>
+          </View>
+        </View>
+
+        {/* Place Order Button */}
+        <TouchableOpacity
+          style={styles.placeOrderButton}
+          onPress={handleSubmit(handlePlaceOrder)}
+        >
+          <Text style={styles.placeOrderButtonText}>Place Order</Text>
+        </TouchableOpacity>
+      </ScrollView>
+    </ProtectedRoute>
   );
 };
 

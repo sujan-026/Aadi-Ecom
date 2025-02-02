@@ -248,9 +248,9 @@
 
 
 import React, { useState, useEffect } from "react";
-import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
+import { ScrollView,View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
 import { collection, getDocs, query, limit } from "firebase/firestore";
-import db from "@/firebaseConfig";
+import {db} from "@/firebaseConfig";
 import { useRouter } from "expo-router";
 
 const FeaturedCategories = () => {
@@ -286,7 +286,7 @@ const FeaturedCategories = () => {
   };
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <Text style={styles.title}>Featured Categories</Text>
       <View style={styles.grid}>
         {featuredCategories.map((category, index) => (
@@ -300,7 +300,7 @@ const FeaturedCategories = () => {
           </TouchableOpacity>
         ))}
       </View>
-    </View>
+    </ScrollView>
   );
 };
 

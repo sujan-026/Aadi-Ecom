@@ -24,7 +24,7 @@ import {
   limit,
   startAfter,
 } from "firebase/firestore";
-import db from "@/firebaseConfig";
+import {db} from "@/firebaseConfig";
 import { useCart } from "@/app/context/CartContext";
 import { debounce } from "lodash";
 
@@ -143,10 +143,12 @@ const SpareParts = ({ subcategories, activeTab, setActiveTab }) => {
       const productIds = activeSubcategory.spare_part;
 
       const productChunks = chunkArray(productIds, 30);
+
+      const productCollection = collection(db, "Product");
       const productPromises = productChunks.map((chunk) =>
         getDocs(
           query(
-            collection(db, "Product"),
+            productCollection,
             where("__name__", "in", chunk),
             startAfter(lastVisible),
             limit(10) // Fetch the next 10 items
@@ -179,9 +181,11 @@ const SpareParts = ({ subcategories, activeTab, setActiveTab }) => {
       </Box>
     );
   }
+  
 
   return (
     <Box className="pb-8 px-4 md:px-0">
+      
       {/* Tabs */}
       <Box className="border-b border-outline-50 md:border-b-0 md:border-transparent">
         <Box className="py-5">
@@ -329,15 +333,3 @@ export default SpareParts;
 
 
 /* The Testing  code */
-
-
-
-
-
-
-
-
-
-
-
-

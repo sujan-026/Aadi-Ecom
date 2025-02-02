@@ -257,7 +257,7 @@ import {
   Image,
 } from "react-native";
 import { collection, getDocs, query, limit } from "firebase/firestore";
-import db from "@/firebaseConfig";
+import {db} from "@/firebaseConfig";
 import { useRouter } from "expo-router";
 
 const BASE_IMAGE_URL = "https://www.aadibikes.com/images/";
