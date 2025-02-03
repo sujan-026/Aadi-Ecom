@@ -78,6 +78,7 @@
 
 
 import React, { createContext, useState, useContext } from "react";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 interface CartItem {
   id: string; 
@@ -148,6 +149,15 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({
         item.id === id ? { ...item, quantity: Math.max(1, quantity) } : item
       )
     );
+  };
+
+  const saveCart = async (cart) => {
+    await AsyncStorage.setItem("cart", JSON.stringify(cart));
+  };
+
+  const loadCart = async () => {
+    const savedCart = await AsyncStorage.getItem("cart");
+    return savedCart ? JSON.parse(savedCart) : [];
   };
 
   return (

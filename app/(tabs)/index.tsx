@@ -266,6 +266,7 @@ export default function Index() {
       } finally {
         const endTime = Date.now();
         setLoadTime((endTime - startTime) / 1000); // Calculate total load time
+        console.log("Loaded home in:", (endTime - startTime) / 1000);
         setLoading(false);
       }
     };
@@ -282,14 +283,9 @@ export default function Index() {
     <ScrollView style={styles.container}>
       <Header />
       <Carousel data={carouselData} />
-      <Text style={styles.loadingTime}>
+      {/* <Text style={styles.loadingTime}>
         Home loaded in {loadTime.toFixed(2)} seconds
-      </Text>
-      <Link href="login">
-        <Text style={styles.loadingTime}>
-          Login page
-        </Text>
-      </Link>
+      </Text> */}
       <BrandsSection />
       <FeaturedCategories />
     </ScrollView>

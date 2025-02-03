@@ -13,7 +13,6 @@ import {
   ShoppingBag,
   ChevronRight,
   Settings,
-  Tablets,
   User,
   MessageCircleQuestionIcon,
   HeadsetIcon,
@@ -27,7 +26,6 @@ import ProtectedRoute from "@/components/ProtectedRoute";
 
 const MobileProfilePage = ({ isActive }: any) => {
   const [openLogoutAlertDialog, setOpenLogoutAlertDialog] = React.useState(false);
-  const { user, logout } = useAuth();
   return (
     <ProtectedRoute>
       <ScrollView style={{ display: isActive ? "flex" : "none" }}>
@@ -55,6 +53,7 @@ const MobileProfilePage = ({ isActive }: any) => {
 };
 
 const ProfileCard = () => {
+  const { user, userData } = useAuth();
   const router = useRouter();
 
   const handleModalNavigation = (type: string) => {
@@ -64,11 +63,12 @@ const ProfileCard = () => {
     });
   };
   return (
-     
     <HStack className="justify-between items-center">
       <HStack space="md">
         <Avatar className="bg-primary-500">
-          <AvatarFallbackText>Sujan P</AvatarFallbackText>
+          <AvatarFallbackText>
+            ${userData.firstName} ${userData.lastName}
+          </AvatarFallbackText>
           <AvatarImage
             source={{
               uri: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
@@ -76,15 +76,14 @@ const ProfileCard = () => {
           />
         </Avatar>
         <VStack>
-            <Text>Sujan P</Text>
-            <Link>
-              <LinkText
-                size="sm"
-                className="text-typography-900 no-underline hover:text-typography-500 active:text-typography-500"
-              >
-                Profile
-              </LinkText>
-            </Link>
+          <Text>
+            {userData ? `${userData.firstName} ${userData.lastName}` : "User"}
+          </Text>
+          <Link>
+            <LinkText size="sm" className="text-typography-900">
+              Profile
+            </LinkText>
+          </Link>
         </VStack>
       </HStack>
     </HStack>
@@ -192,15 +191,17 @@ const SupportSection = () => {
   );
 };
 
-const LogoutButton = ({ setOpenLogoutAlertDialog }: any) => {
+const LogoutButton = () => {
+  const { logout } = useAuth();
+  const router = useRouter();
+
+  const handleLogout = async () => {
+    await logout();
+    router.replace("/login"); // Redirect to login screen after logout
+  };
+
   return (
-    <Button
-      action="secondary"
-      variant="outline"
-      onPress={() => {
-        setOpenLogoutAlertDialog(true);
-      }}
-    >
+    <Button action="secondary" variant="outline" onPress={handleLogout}>
       <ButtonText>Logout</ButtonText>
     </Button>
   );

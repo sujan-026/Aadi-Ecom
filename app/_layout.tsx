@@ -3,8 +3,20 @@ import { GluestackUIProvider } from "@/components/ui/gluestack-ui-provider";
 import { Stack } from "expo-router";
 import { CartProvider } from "@/app/context/CartContext";
 import { AuthProvider } from "@/app/context/AuthContext"; 
+import { useEffect, useState } from "react";
+import { useRouter, useNavigationContainerRef } from "expo-router";
 
 export default function RootLayout() {
+  const [isReady, setIsReady] = useState(false);
+  const navigationRef = useNavigationContainerRef();
+
+  useEffect(() => {
+    const unsubscribe = navigationRef?.addListener("state", () => {
+      setIsReady(true);
+    });
+    return unsubscribe;
+  }, []);
+  
   return (
     <AuthProvider>
       <CartProvider>

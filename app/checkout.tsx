@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {
   View,
   Text,
@@ -9,10 +9,14 @@ import {
 } from "react-native";
 import { useForm, Controller } from "react-hook-form"; // Import react-hook-form
 import { useCart } from "@/app/context/CartContext";
+import { useRouter } from "expo-router";
 import ProtectedRoute from "@/components/ProtectedRoute";
+import { useAuth } from "@/app/context/AuthContext";
 
 const CheckoutScreen = () => {
   const { cart } = useCart();
+  const router = useRouter();
+  const { user } = useAuth();
 
   const {
     control,
@@ -55,7 +59,13 @@ const CheckoutScreen = () => {
     alert("Order Placed!");
   };
 
-  return (
+  useEffect(() => {
+    if (!user) {
+      router.push("/login"); // Redirect to login
+    }
+  }, [user]);
+
+  return user ? (
     <ProtectedRoute>
       <ScrollView style={styles.container}>
         {/* Contact Section */}
@@ -192,7 +202,7 @@ const CheckoutScreen = () => {
         </TouchableOpacity>
       </ScrollView>
     </ProtectedRoute>
-  );
+  ) : null;
 };
 
 const styles = StyleSheet.create({

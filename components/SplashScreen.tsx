@@ -87,8 +87,8 @@ const SplashScreen = ({ onFinish }) => {
         ref={animation}
         source={require("@/assets/bike2.json")}
         autoPlay
-        loop={false}
-        speed={2.0}
+        loop={true}
+        speed={1.0}
         style={styles.animation}
       />
       <Text style={styles.text}>Welcome to Aadi Bikes</Text>
