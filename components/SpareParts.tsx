@@ -1,6 +1,5 @@
 /* The working code */
 
-
 import React, { useState, useEffect, useCallback } from "react";
 import { Box } from "@/components/ui/box";
 import { VStack } from "@/components/ui/vstack";
@@ -27,6 +26,7 @@ import {
 import {db} from "@/firebaseConfig";
 import { useCart } from "@/app/context/CartContext";
 import { debounce } from "lodash";
+import { useRouter } from "expo-router";
 
 // Helper function to chunk an array into smaller arrays of a given size
 const chunkArray = (array, chunkSize) => {
@@ -46,6 +46,7 @@ const SpareParts = ({ subcategories, activeTab, setActiveTab }) => {
   const [lastVisible, setLastVisible] = useState(null); // For pagination
   const [isFetchingMore, setIsFetchingMore] = useState(false); // To track additional loading
   const [imageError, setImageError] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const fetchProductsByCategory = async () => {
@@ -243,79 +244,87 @@ const SpareParts = ({ subcategories, activeTab, setActiveTab }) => {
           const isInStock = product.stock === "in stock";
 
           return (
-            <Card
-              key={product.id}
-              className="p-5 rounded-lg w-full md:w-[30%] m-1 flex flex-col justify-between"
+            <Pressable
+              onPress={() => router.push(`/(spare-parts)/${product.id}`)}
             >
-              <Image
-                source={{
-                  uri: product.image !== "url"
-                ? `https://www.aadibikes.com/images/${product.image}`
-                : `https://cpworldgroup.com/wp-content/uploads/2021/01/placeholder.png`,
-                }}
-                onError={() => setImageError(true)} // Fallback to placeholder on error
-                className="mb-6 h-[200px] w-full rounded-md aspect-[5/3]"
-                alt={`${product.title} image`}
-              />
-              <Text className="text-sm font-normal mb-2 text-typography-700">
-                {product.title}
-              </Text>
-              <Text className="text-sm text-typography-500 mb-4">
-                Brand: {product.spare_brand}
-              </Text>
-              <VStack className="mb-6">
-                <Text size="md" className="mb-1 font-bold text-typography-900">
-                  ₹{product.selling_price}
+              <Card
+                key={product.id}
+                className="p-5 rounded-lg w-full md:w-[30%] m-1 flex flex-col justify-between"
+              >
+                <Image
+                  source={{
+                    uri:
+                      product.image !== "url"
+                        ? `https://www.aadibikes.com/images/${product.image}`
+                        : `https://cpworldgroup.com/wp-content/uploads/2021/01/placeholder.png`,
+                  }}
+                  onError={() => setImageError(true)} // Fallback to placeholder on error
+                  className="mb-6 h-[200px] w-full rounded-md aspect-[5/3]"
+                  alt={`${product.title} image`}
+                />
+                <Text className="text-sm font-normal mb-2 text-typography-700">
+                  {product.title}
                 </Text>
-                <Text className="text-sm line-through text-gray-400">
-                  ₹{product.original_price}
+                <Text className="text-sm text-typography-500 mb-4">
+                  Brand: {product.spare_brand}
                 </Text>
-                <Text
-                  className={`font-medium ${
-                    isInStock ? "text-green-500" : "text-red-500"
-                  }`}
-                >
-                  {isInStock ? "In Stock" : "Out of Stock"}
-                </Text>
-              </VStack>
-              <Box className="flex flex-row items-end mt-auto">
-                <Button
-                  className={`px-4 py-2 mr-2 flex-1 ${
-                    isInStock ? "bg-[#007bff]" : "bg-[#ddd]"
-                  }`}
-                  onPress={() => isInStock && addToCart(product, activeTab)}
-                  disabled={!isInStock}
-                >
+                <VStack className="mb-6">
                   <Text
-                    size="sm"
-                    className={`text-white font-bold ${
-                      !isInStock ? "text-gray-500" : ""
+                    size="md"
+                    className="mb-1 font-bold text-typography-900"
+                  >
+                    ₹{product.selling_price}
+                  </Text>
+                  <Text className="text-sm line-through text-gray-400">
+                    ₹{product.original_price}
+                  </Text>
+                  <Text
+                    className={`font-medium ${
+                      isInStock ? "text-green-500" : "text-red-500"
                     }`}
                   >
-                    {isInStock ? "Add to Cart" : "Unavailable"}
+                    {isInStock ? "In Stock" : "Out of Stock"}
                   </Text>
-                </Button>
-                {!isInStock && (
+                </VStack>
+                <Box className="flex flex-row items-end mt-auto">
                   <Button
-                    variant="outline"
-                    className="px-4 py-2 border-outline-300 flex-1"
-                    onPress={() =>
-                      addToWishlist({
-                        id: product.id,
-                        title: product.title,
-                        price: product.selling_price,
-                        image:
-                          `https://www.aadibikes.com/images/` + product.image,
-                      })
-                    }
+                    className={`px-4 py-2 mr-2 flex-1 ${
+                      isInStock ? "bg-[#007bff]" : "bg-[#ddd]"
+                    }`}
+                    onPress={() => isInStock && addToCart(product, activeTab)}
+                    disabled={!isInStock}
                   >
-                    <Text size="sm" className="text-typography-600">
-                      Wishlist
+                    <Text
+                      size="sm"
+                      className={`text-white font-bold ${
+                        !isInStock ? "text-gray-500" : ""
+                      }`}
+                    >
+                      {isInStock ? "Add to Cart" : "Unavailable"}
                     </Text>
                   </Button>
-                )}
-              </Box>
-            </Card>
+                  {!isInStock && (
+                    <Button
+                      variant="outline"
+                      className="px-4 py-2 border-outline-300 flex-1"
+                      onPress={() =>
+                        addToWishlist({
+                          id: product.id,
+                          title: product.title,
+                          price: product.selling_price,
+                          image:
+                            `https://www.aadibikes.com/images/` + product.image,
+                        })
+                      }
+                    >
+                      <Text size="sm" className="text-typography-600">
+                        Wishlist
+                      </Text>
+                    </Button>
+                  )}
+                </Box>
+              </Card>
+            </Pressable>
           );
         }}
         onEndReached={fetchMoreProducts}

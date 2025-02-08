@@ -23,13 +23,13 @@ export default function RootLayout() {
         <GluestackUIProvider>
           <Stack>
             <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-            <Stack.Screen name="(bike)" options={{ title: "Bike List" }} />
             <Stack.Screen name="(spares)" options={{ headerShown: false }} />
-            <Stack.Screen name="checkout" options={{ title: "Billing" }} />
+            <Stack.Screen name="(spare-parts)" options={{ title: "Product" }} />
             <Stack.Screen
               name="(product)"
               options={{ title: "Bike Spare Part List" }}
             />
+            <Stack.Screen name="checkout" options={{ title: "Billing" }} />
             <Stack.Screen
               name="modal"
               options={{

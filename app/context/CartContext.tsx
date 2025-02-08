@@ -89,9 +89,6 @@ interface CartItem {
 
 interface WishlistItem {
   id: string;
-  title: string;
-  price: string;
-  image: string;
 }
 
 interface CartContextType {
