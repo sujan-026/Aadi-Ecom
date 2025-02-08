@@ -189,7 +189,7 @@ import {
 } from "react-native";
 import { useLocalSearchParams } from "expo-router";
 import { collection, query, where, getDocs } from "firebase/firestore";
-import db from "@/firebaseConfig";
+import {db} from "@/firebaseConfig";
 import { useCart } from "@/app/context/CartContext";
 
 // Helper function to chunk array for Firestore's "in" query
