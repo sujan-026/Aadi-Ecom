@@ -38,6 +38,8 @@ const MobileProfilePage = ({ isActive }: any) => {
           <Divider className="my-2" />
           <SupportSection />
           <Divider className="my-2" />
+          <HelpSection />
+          <Divider className="my-2" />
           <LogoutButton
             openLogoutAlertDialog={openLogoutAlertDialog}
             setOpenLogoutAlertDialog={setOpenLogoutAlertDialog}
@@ -186,6 +188,27 @@ const SupportSection = () => {
         <Pressable onPress={() => handleModalNavigation("support")}>
           <Icon as={ChevronRight} />
         </Pressable>
+      </HStack>
+    </VStack>
+  );
+};
+
+const HelpSection = () => {
+  const router = useRouter();
+
+  const handleModalNavigation = (type: string) => {
+    router.push({
+      pathname: "/modal",
+      params: { modalType: type },
+    });
+  };
+  return (
+    <VStack space="lg">
+      <Heading className="mb-1">Need more help?</Heading>
+      <HStack className="justify-between">
+        <Button onPress={() => handleModalNavigation("customerService")}>
+          <ButtonText>Visit Customer service</ButtonText>
+        </Button>
       </HStack>
     </VStack>
   );

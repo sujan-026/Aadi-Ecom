@@ -8,6 +8,7 @@ import MyOrderModal from "@/components/modals/MyOrderModal";
 import PreviousModal from "@/components/modals/PreviousOrderModal";
 import SupportModal from "@/components/modals/SupportModal";
 import GetHelpModal from "@/components/modals/GetHelpModal";
+import CustomerServiceModal from "@/components/modals/CustomerServiceModal";
 
 const BaseModal = () => {
   const { modalType } = useLocalSearchParams() as { modalType: string };
@@ -21,6 +22,7 @@ const BaseModal = () => {
     previousorder: "Previous Orders",
     gethelp: "Get Help",
     support: "Contact Support",
+    customerService: "Customer Service",
   };
 
   // Set dynamic title based on modal type
@@ -43,6 +45,8 @@ const BaseModal = () => {
         return <PreviousModal />;
       case "gethelp":
         return <GetHelpModal />;
+      case "customerService":
+        return <CustomerServiceModal />;
       default:
         return <SupportModal />;
     }
