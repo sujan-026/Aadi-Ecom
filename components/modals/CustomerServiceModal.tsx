@@ -57,9 +57,11 @@ const CustomerServiceModal = () => {
           </Text>
           <Button
             variant="outline"
-            onPress={() => openLink("https://example.com/returns")}
+            onPress={() =>
+              openLink("https://www.aadibikes.com/policies/return-policy")
+            }
           >
-            <ButtonText>View Policy</ButtonText>
+            <ButtonText>View Return Policy</ButtonText>
           </Button>
         </VStack>
 
@@ -73,7 +75,9 @@ const CustomerServiceModal = () => {
           </Text>
           <Button
             variant="outline"
-            onPress={() => openLink("https://example.com/shipping")}
+            onPress={() =>
+              openLink("https://www.aadibikes.com/policies/shipping-policy")
+            }
           >
             <ButtonText>View Shipping Policy</ButtonText>
           </Button>
@@ -89,7 +93,9 @@ const CustomerServiceModal = () => {
           </Text>
           <Button
             variant="outline"
-            onPress={() => openLink("https://example.com/exchange")}
+            onPress={() =>
+              openLink("https://www.aadibikes.com/policies/exchreturn-policy")
+            }
           >
             <ButtonText>View Exchange Policy</ButtonText>
           </Button>
@@ -98,12 +104,14 @@ const CustomerServiceModal = () => {
         {/* Need More Help Section */}
         <Divider />
         <VStack space="md">
-          <Heading size="sm">Need More Help?</Heading>
+          <Heading size="sm">Terms & Conditions</Heading>
           <Button
             variant="outline"
-            onPress={() => openLink("https://example.com/help")}
+            onPress={() =>
+              openLink("https://www.aadibikes.com/policies/terms-conditions")
+            }
           >
-            <ButtonText>Browse Help Topics</ButtonText>
+            <ButtonText>View Terms and Conditions</ButtonText>
           </Button>
         </VStack>
       </VStack>
