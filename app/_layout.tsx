@@ -26,6 +26,7 @@ export default function RootLayout() {
             <Stack.Screen name="(spares)" options={{ headerShown: false }} />
             <Stack.Screen name="(spare-parts)" options={{ title: "Product" }} />
             <Stack.Screen name="checkout" options={{ title: "Billing" }} />
+            <Stack.Screen name="search" options={{ title: "Search Results" }} />
             <Stack.Screen
               name="modal"
               options={{
