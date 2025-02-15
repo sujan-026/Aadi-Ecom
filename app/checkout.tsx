@@ -55,7 +55,6 @@ const CheckoutScreen = () => {
       .toFixed(2);
 
   const handlePlaceOrder = (data) => {
-    console.log("Order Data:", { ...data, cart });
     alert("Order Placed!");
   };
 

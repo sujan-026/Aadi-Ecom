@@ -1,32 +1,3 @@
-// import { useEffect } from "react";
-// import { useRouter } from "expo-router";
-// import { useAuth } from "@/app/context/AuthContext";
-// import MobileProfilePage from "@/components/MobileProfilePage";
-
-// const ProfileScreen = () => {
-//   const { user } = useAuth();
-//   const router = useRouter();
-
-//   useEffect(() => {
-//     if (!user) {
-//       router.push("/login"); // Redirect to login
-//     }
-//   }, [user]);
-
-//   // return user ? <MobileProfilePage isActive={true} /> : router.push("/login");
-//   if (user) {
-//     return <MobileProfilePage isActive={true} />;
-//   } else{
-//     router.push("/login");
-//   }
-// };
-
-// export default ProfileScreen;
-
-
-
-
-
 import { useEffect, useCallback } from "react";
 import { useRouter } from "expo-router";
 import { useFocusEffect } from "@react-navigation/native";

@@ -25,10 +25,6 @@ export default function RootLayout() {
             <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
             <Stack.Screen name="(spares)" options={{ headerShown: false }} />
             <Stack.Screen name="(spare-parts)" options={{ title: "Product" }} />
-            <Stack.Screen
-              name="(product)"
-              options={{ title: "Bike Spare Part List" }}
-            />
             <Stack.Screen name="checkout" options={{ title: "Billing" }} />
             <Stack.Screen
               name="modal"

@@ -337,8 +337,3 @@ const SpareParts = ({ subcategories, activeTab, setActiveTab }) => {
 };
 
 export default SpareParts;
-
-
-
-
-/* The Testing  code */
